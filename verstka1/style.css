@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+}
+#text1{
+    color: red;
+    text-decoration:line-through;
+    text-decoration-color: red;
+}
+#text2{
+    color: blue;
+    text-decoration:line-through;
+    text-decoration-color: blue;
+}
+#citata{
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+#comm{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+h5{
+    text-align: center;
+    font-size:20px;
+}
+sup{
+    text-decoration:underline;
+}
+#verhind{
+    text-align: center;
+}
+#abracadabra{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:18px;
+}
+acronym{
+    text-decoration: none;
+}
+#tf{
+    text-decoration: none;
+}
+#last{
+    text-align: right;
+}
