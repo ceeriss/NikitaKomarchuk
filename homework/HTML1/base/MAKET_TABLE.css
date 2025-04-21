@@ -1,0 +1,49 @@
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: royalblue;
+  padding: 0px;
+}
+.header {
+  background-color: deepskyblue;
+  padding: 1px;
+}
+.menu {
+  background-color: burlywood;
+  float: left;
+  width: 400px;
+  height: 600px;
+}
+.footer {
+  background-color: deepskyblue;
+  padding: 10px;
+  clear: both;
+  text-transform: uppercase;
+  text-align: center;
+  color: royalblue;
+  font-size: 30px;
+  padding: 22px;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  padding: 5px;
+}
+li {
+}
+ul {
+  list-style-type: disc;
+}
+img {
+  width: 10%;
+  float: left;
+}
+p {
+}
+.content {
+  background-image: url("ball.png");
+  background-repeat: repeat-y;
+  background-size: 50px;
+  background-position: right;
+}
