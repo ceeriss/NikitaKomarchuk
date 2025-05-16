@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Star Rating</title>
+    <style>
+        .star {
+            float: left;
+            width: 74px;
+            height: 80px;
+            background: url('star0.png') no-repeat;
+        }
+
+        .star:hover {
+            background: url('star1.png') no-repeat center/contain;
+        }
+
+        .rating:hover .star {
+            background: url('star1.png') no-repeat center/contain;
+        }
+
+        .rating .star:hover~.star {
+            background: url('star0.png') no-repeat center/contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rating">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+    </div>
+</body>
+
+</html>
