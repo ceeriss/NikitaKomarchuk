@@ -1,0 +1,43 @@
+@keyframes ContainerAnim {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+@keyframes first {
+  from {
+    transform: skew(0deg);
+  }
+  to {
+    transform: skew(50deg);
+  }
+}
+.container {
+  width: 300px;
+  height: 300px;
+  background-color: violet;
+  animation: ContainerAnim 1s infinite;
+  margin: 100px;
+}
+.first {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  margin: 100px;
+  transition: 1s;
+}
+.second {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin: 100px;
+  transition: 1s;
+}
+.container:hover + .first {
+  transform: skew(50deg);
+}
+.container:hover ~ .second {
+    transform: rotate(60deg);
+}
