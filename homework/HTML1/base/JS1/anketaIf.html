@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var firstName, secondName, thirdName, age, gender, AgeDays, pensia, genderText;
+        firstName = prompt('Введите фамилию: ');
+        secondName = prompt('Введите имя: ');
+        thirdName = prompt('Введите отчество: ');
+        age = prompt('Введите свой возраст');
+        gender = confirm("Ваш пол мужской ?");
+        AgeDays = age * 365.25;
+        if (gender == true) {
+            genderText = 'мужской'
+        }
+        else {
+            genderText = 'женский'
+        }
+        if (gender == true && age >= 63) {
+            pensia = 'Да'
+        }
+        else if (gender == true && age < 63) {
+            pensia = 'Нет'
+        }
+        else if (gender == false && age >= 58) {
+            pensia = 'Да'
+        }
+        else {
+            pensia = 'Нет'
+        }
+        alert(
+            `ваше ФИО: ${firstName} ${secondName} ${thirdName}
+ваш возраст: ${age}
+ваш возраст в днях ${AgeDays}
+через 5 лет вам будет ${parseInt(age) + 5}
+ваш пол: ${genderText}
+вы на пенсии: ${pensia}`
+        )
+    </script>
+</body>
+
+</html>
