@@ -1,0 +1,909 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  width: 1196px;
+  display: block;
+}
+.header {
+  background-image: url("img/Галактика_azari-architects_5\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1024px;
+}
+.logo h4 {
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: #c0ad95;
+  margin-right: 66px;
+}
+.menu ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.menu li {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 20px;
+  font-family: "Cormorant", serif;
+}
+.menu-head {
+  display: flex;
+}
+.ShkafZagal h1 {
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 28px;
+  margin-top: 207px;
+  color: #fff;
+}
+.TenPrecent {
+}
+.TenPrecent p {
+  color: #fff;
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 33px;
+  line-height: 28px;
+  margin-top: 43px;
+}
+.tEnd {
+  color: #fff;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+.FourButtuns {
+  margin-top: 9px;
+}
+.FourButtuns button {
+  width: 44px;
+  height: 40px;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 28px;
+  color: #11100e;
+  margin-right: 20px;
+}
+.FourButtuns ul {
+  list-style-type: none;
+  display: flex;
+}
+.FourButtuns li p {
+  font-weight: 400;
+  color: #fff;
+  font-size: 21px;
+  line-height: 28px;
+}
+.sec {
+  margin-left: 5px;
+}
+.Vvedite_nomer {
+  margin-top: 30px;
+}
+.Vvedite_nomer input {
+  width: 510px;
+  height: 51px;
+  border-radius: 8px;
+  background-color: #fbfbfb;
+  border: 1px solid #fbfbfb;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 28px;
+  color: #07070763;
+  padding-left: 20px;
+  font-family: "Cormorant", serif;
+}
+.GetButton {
+  margin-top: 28px;
+}
+.GetButton button {
+  background-color: #af9678;
+  border: 1px solid #af9678;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 26px;
+  padding: 14px;
+  font-family: "Cormorant", serif;
+}
+.PriceIMG {
+  margin-top: 144px;
+  display: flex;
+}
+.PriceIMG h2 {
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 71px;
+  color: #11100e;
+  font-family: "Cormorant", serif;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 88px;
+}
+.PriceIMG p {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  color: #11100e;
+  margin-left: 88px;
+  margin-top: 26px;
+}
+.PriceIMG button {
+  background-color: #af9678;
+  border: 1px solid #af9678;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 26px;
+  line-height: 28px;
+  padding: 14px;
+  margin-left: 88px;
+  margin-top: 26px;
+}
+
+.FlexClass {
+  display: flex;
+}
+.HR hr {
+  background-color: #af9678;
+  border: 2px solid #af9678;
+  width: 1176px;
+  margin-top: 117px;
+}
+.AboutUs {
+  margin-top: 59px;
+}
+.AboutUs h2 {
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 28px;
+  color: #937a60;
+  text-align: center;
+}
+.AboutUsText {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.AboutUsText p {
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  color: #000000;
+}
+.ForteenYears {
+  margin-top: 146px;
+}
+.ForteenYears h2 {
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 28px;
+  color: #937a60;
+  text-align: center;
+}
+.ImgMenu {
+  margin-top: 79px;
+}
+
+.ImgMenu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  text-align: center;
+}
+.ImgMenu li {
+  color: #000000;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 29px;
+  font-family: "Cormorant", serif;
+}
+.Katolog {
+  margin-top: 145px;
+}
+.Katolog h2 {
+  color: #937a60;
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 68px;
+  line-height: 28px;
+}
+.ThreeIMG {
+  margin-top: 125px;
+}
+.ThreeIMG ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.ThreeIMG li {
+  width: 332px;
+  height: 608px;
+  color: #000;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 28px;
+  
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 300px;
+  color:#Ffff;
+}
+.shkafKupe{
+  background-image: url('img/katal3.png');
+}
+.shkafSdveryami{
+  background-image: url('img/katal2.png');
+}
+.kitchen{
+  background-image: url('img/katal1.png');
+}
+.materials{
+    margin-top: 159px;
+}
+.materials h2{
+    color:#937A60;
+    font-family: "Cormorant", serif;
+    font-size: 68px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.TwoButtons{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.TwoButtons p{
+    color:#000000;
+    font-family: "Cormorant", serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 28px;
+    padding-bottom: 12px;
+    text-align: center;
+    margin-bottom: 58.5px;
+    width: 337px;
+}
+.TwoButtons p:hover{
+    border-bottom: 2px solid #0e0d0d;
+    
+}
+.MaterialIMGS{
+    display: flex;
+    justify-content: space-around;
+}
+.MaterialIMGS ul{
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+}
+.MaterialIMGS li{
+  list-style-type: none;
+}
+.MaterialIMGS img{
+  width: 600px;
+}
+.MaterialIMGS p{
+  visibility: hidden;
+}
+.Special{
+  margin-top: 149px;
+}
+.Special h2{
+  color:#937A60;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 28px;
+}
+.SpecialIMGS{
+  margin-top: 92px;
+  position: relative;
+}
+.TopBlock{
+  width: 136px;
+  height: 48px;
+  position: absolute;
+  background-color: #11100E;
+  color:#FFFFFF;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+.content{
+  position: relative;
+}
+.first{
+  top: 100px;
+  left: 330px;
+}
+.second{
+  width: 84px;
+  height: 48px;
+  top: 100px;
+  left: 760px;
+}
+.third{
+  top: 100px;
+  width: 84px;
+  height: 48px;
+  left: 1190px;
+}
+.fourth{
+  top: 685px;
+  left: 330px;
+}
+.fifth{
+  top: 685px;
+  left: 760px;
+  width: 84px;
+  height: 48px;
+}
+.sixth{
+  top: 685px;
+  left: 1190px;
+  width: 84px;
+  height: 48px;
+}
+.NameSpecial{
+  color:#000000;
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 30px;
+  line-height: 28px;
+}
+.PriceSpecial{
+  color:#937A60;
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 28px;
+  line-height: 28px;
+}
+.secondPrice{
+  color:#E52B2B;
+}
+.SmallPrice{
+  color:#937A60;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 28px;
+}
+.firstSmall{
+  visibility: hidden;
+}
+.secondSmall{
+  color:#E52B2B;
+}
+.FlexSecond{
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.NameAndPriceFlex{
+  display: flex;
+  justify-content: space-between;
+} 
+.SeeMore{
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+.SeeMore h3{
+  color: #937A60;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  font-family: "Cormorant", serif;
+  width: 276px;
+  text-align: center;
+}
+.SeeMore h3:hover{
+  border-bottom: 1px solid #937A60;
+}
+.Seil{
+  height: 572px;
+  background-color: #161513;
+  padding-top: 134px;
+  display: flex;
+  justify-content: center;
+  background-image: url('img/phone.png');
+  background-repeat: no-repeat;
+  background-position:1150px 60px;
+  margin-top: 104px;
+}
+.SailText{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+.Seil h3{
+  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 28px;
+  font-family: "Cormorant", serif;
+  text-align: center;
+  
+}
+.Seil p{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  color:#FFFFFF;
+  text-align: center;
+  margin-top: 30px;
+}
+.Seil input{
+  width: 758px;
+  height: 64px;
+  padding-left: 32px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  color:#11100E75;
+  font-family: "Cormorant", serif;
+  border-radius: 8px;
+  margin-top: 43px;
+}
+.Seil button{
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 26px;
+  color:#FFFFFF;
+  width: 286px;
+  height: 56px;
+  border:1px solid #AF9678;
+  background-color: #AF9678;
+  margin-top: 55px;
+  border-radius:8px;
+}
+.Recens{
+  margin-top: 148px;
+}
+.Recens h2{
+  color:#937A60;
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 68px;
+  line-height: 28px;
+}
+.Nick{
+  margin-top: 79px;
+  margin-left: 40px;
+}
+.NickName{
+  color:#000000;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 28px;
+}
+.Otziv{
+  color:#000000;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: "Cormorant", serif;  
+  margin-top: 59px;
+}
+.FourCircles{
+  display: flex;
+  justify-content:center;
+  margin-top: 27px; 
+}
+.FourCircles button{
+  width: 26px;
+  height: 26px;
+  border:1px solid #937A60;
+  background-color: #fff;
+  border-radius:100px;
+  margin: 8px;
+}
+.FourCircles button:hover{
+  background-color: #937A60;
+}
+.process{
+  margin-top: 149px;
+  width: 1200px;
+  margin: 0 auto;
+}
+.process h2{
+  color:#937A60;
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 68px;
+  line-height: 28px;
+  margin-bottom: 116px;
+}
+.Work{
+  position: relative;
+}
+.imgOne{
+  left: 200px;
+}
+.imgTwo{
+  right: 200px;
+}
+.HardMenu{
+  margin-top: 248px;
+  display: flex;
+  flex-direction: column;
+}
+.HardMenu ul{ 
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  background-image: url('img/Proizvodstvo.png');
+  position: relative;
+  width: 948px;
+  height: 340px;
+  margin-top: 132px;
+}
+.HardMenu li{
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 30px;
+  line-height: 28px;
+  color:#FFFFFF;
+  padding-bottom: 35px;
+}
+.BlockHardMenu{
+  display: flex;
+  justify-content: center;
+}
+.firstLi{
+  padding-top: 67px;
+}
+.LastLi{
+  padding-bottom: 56px;
+}
+span{
+  font-weight: 400;
+  color:#ffff;
+  font-size: 37px;
+  line-height: 28px;
+  font-family:'Times New Roman', Times, serif;
+}
+.HardMenu img{
+  position: absolute;
+}
+.firstZero{
+  left: 100px;
+  top: 100px;
+}
+.HowWeWork{
+  margin-top: 348px;
+}
+.HowWeWork h2{
+  color:#937A60;
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 68px;
+  line-height: 28px;
+}
+.HardArrow{
+  padding-top: 133px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.HardArrow p{
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  color:#000000;
+}
+.firstZakazIMG{
+  position: absolute;
+  left: 30px;
+  top: 100px;
+}
+.ArrowRight{
+  width: 50px;
+  height: 25px;
+  position: absolute;
+  top: 138px;
+}
+.secondZakaz{
+  padding-right: 110px;
+}
+.secondZakazIMG{
+  position: absolute;
+  top: 100px;
+  right: 380px;
+}
+.HardArrowTwo{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 108px;
+  position: relative;
+}
+.HardArrowTwo p {
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  color:#000000;
+}
+.thirdZakaz{
+  padding-left: 60px;
+  padding-top: 20px;
+}
+.thirdZakazIMG{
+  position: absolute;
+  top: 90px;
+  left: 35px;
+}
+.fourthZakaz{
+  padding-left: 150px;
+  padding-top: 20px;
+}
+.fourzZakazIMG{
+  position: absolute;
+  top: 90px;
+  right: 380px;
+}
+.DownArrow{
+  position: absolute;
+  right: 250px;
+  top: 190px;
+}
+.LeftArrow{
+  position: absolute;
+  transform: rotate(180deg);
+  left: 570px;
+}
+.HardArrowThree{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 140px;
+  position: relative;
+}
+.HardArrowThree p{
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  color:#000000;
+}
+.fifthZakaz{
+  padding-right: 90px;
+}
+.fifthZakazIMG{
+  position: absolute;
+  top: 90px;
+  left: 35px;
+}
+.AnotherDownArrow{
+  position: absolute;
+  left: 166px;
+  top: 30px;
+}
+.sixthZakaz{
+  padding-right: 40px;
+}
+.sixthZakazIMG{
+  position: absolute;
+  top: 90px;
+  right: 380px;
+}
+.LongRightArrow{
+  position: absolute;
+  left: 470px;
+  top: 145px
+}
+.KnowBlock{
+  margin-top: 160px;
+  display: flex;
+  background-color: #11100E;
+}
+.KnowBlock h2{
+  color:#ffff;
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 68px;
+  line-height: 71px;
+  padding-left: 70px;
+  padding-top: 287px;
+}
+.KnowBlock p{
+  padding-top: 26px;
+  color:#FFFFFF;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  padding-left: 70px;
+}
+.KnowBlock button{
+  color:#FFFFFF;
+  margin-left: 70px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 28px;
+  font-family: "Cormorant", serif;
+  border:1px solid #AF9678;
+  background-color: #AF9678;
+  border-radius: 8px;
+  width: 238px;
+  height: 56px;
+  margin-top: 32px;
+}
+.contacts{
+  margin-top: 148px;
+}
+.contacts h2{
+  color:#937A60;
+  font-weight: 400;
+  font-family: "Cormorant", serif;
+  font-size: 68px;
+  line-height: 28px;
+}
+.ContactsContent{
+  display: flex;
+}
+.ContactsContentFirst{
+  padding-top: 177px;
+  padding-left: 83px;
+}
+.ContactsContentFirst p{
+  color:#000000;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: "Cormorant", serif;
+  padding-bottom: 50px;
+}
+.ContactsContentFirst img{
+  padding-right: 18px;
+}
+.ContactsContentFirst img:hover{
+  cursor: pointer;
+}
+.ContactsContentSecond{
+  margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+  background-image: url('img/ConsultationBg.png');
+  background-repeat: no-repeat;
+  align-items:center;
+  width: 540px;
+  height: 720px;
+  border:1px solid #fff;
+  border-radius: 8px;
+  margin-left: 149px;
+}
+.ContactsContentSecond p{
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 28px;
+  color:#FFFFFF;
+  padding-bottom: 36px;
+  padding-top: 66px;
+}
+.FirstInput{
+  color:#00000078;
+  width: 412px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 28px;
+  padding-left: 29px;
+  border:1px solid #fff;
+  border-radius:10px;
+  font-family: "Cormorant", serif;
+  margin-bottom: 32px;
+}
+.SecondInput{
+  color:#00000078;
+  width: 412px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 28px;
+  padding-left: 29px;
+  border:1px solid #fff;
+  border-radius:10px;
+  font-family: "Cormorant", serif;
+  margin-bottom: 32px;
+}
+.LastInput{
+  color:#00000078;
+  width: 412px;
+  height: 242px;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 28px;
+  padding-left: 29px;
+  border:1px solid #fff;
+  border-radius:10px;
+  font-family: "Cormorant", serif;
+}
+.ContactsContentSecond button{
+  color:#fff;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 28px;
+  font-family: "Cormorant", serif;
+  border:1px solid #AF9678;
+  border-radius:8px;
+  background-color: #AF9678;
+  width: 238px;
+  height: 56px;
+  margin-top: 50px;
+}
+footer{
+  background-color: #937A60;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 190px;
+  position: relative;
+}
+footer h3{
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+  color:#FFFFFF;
+  padding-top: 153px;
+  padding-left: 132px;
+  padding-bottom: 150px;
+}
+.FooterMenu{
+
+}
+.FooterMenu ul{
+  list-style-type: none;
+  padding-top: 54px;
+  padding-left: 127px;
+}
+.FooterMenu li{
+  font-weight: 400;
+  color:#fff;
+  line-height: 28px;
+  font-size: 30px;
+  font-family: "Cormorant", serif;
+  padding-bottom: 16px;
+}
+.map{
+  width: 595px;
+  height: 252px;
+  margin-top: 53px;
+  margin-right: 150px;
+}
+.Metka{
+  position: absolute;
+  right: 570px;
+  top: 180px;
+}
