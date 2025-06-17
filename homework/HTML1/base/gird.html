@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-rows: 50px 1fr 50px;
+            grid-template-columns: auto 1fr;
+            column-gap: 20px;
+        }
+
+        .header {
+            grid-column: 1/3;
+            grid-row: 1;
+            background-color: lightskyblue;
+            font-size: 20px;
+            color: blue;
+            text-align: center;
+            padding-top: 13px;
+        }
+
+        .footer {
+            grid-column: 1/3;
+            grid-row: 3;
+            background-color: lightskyblue;
+            font-size: 20px;
+            color: blue;
+            text-align: center;
+            padding-top: 13px;
+        }
+
+        .menu {
+            grid-column: 1;
+            grid-row: 2;
+            background-color: #f4e68c;
+        }
+
+        .text {
+            grid-column: 2;
+            grid-row: 2;
+            background-image: url("ball.gif"), url("menu.gif");
+            background-position: top right, top left;
+            background-repeat: repeat-y, repeat-y;
+        }
+
+        .image {
+            float: left;
+            margin-bottom: 10px;
+            margin-right: 20px;
+            width: 300px;
+            height: 300px;
+        }
+
+        @media all and (max-width: 400px) {
+            .grid {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto auto;
+            }
+
+            .footer {
+                display: none;
+            }
+
+            .header {
+                display: none;
+            }
+
+            .menu {
+                background: none;
+                grid-column: 1;
+                grid-row: 2;
+            }
+
+            .menu p {
+                text-align: left;
+            }
+
+            .menu ul {
+                list-style: none;
+            }
+
+            .menu li {
+                float: left;
+                margin-right: 5px;
+            }
+
+            .text {
+                background: none;
+                grid-column: 1;
+                grid-row: 1;
+            }
+
+            .image {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body cz-shortcut-listen="true">
+    <div class="grid">
+        <div class="header">
+            ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ!
+        </div>
+        <div class="menu">
+            <p style="text-align: center;">
+                <strong>Виды спорта:</strong>
+            </p>
+            <ul>
+                <li><a href="#">конькобежный спорт</a></li>
+                <li><a href="#">биатлон</a></li>
+                <li><a href="#">футбол</a></li>
+                <li><a href="#">стрельба из лука</a></li>
+                <li><a href="#"">прыжки в длину</a></li>
+                <li><a href="#">прыжки в высоту</a></li>
+                <li><a href="#">фигруное катание</a></li>
+                <li><a href="#">синхронное плавание</a></li>
+                <li><a href="#">шахматы</a></li>
+                <li><a href="#">шашки</a></li>
+            </ul>
+        </div>
+        <div class="text">
+            <h3 style="text-align: center;">ФУТБОЛ</h3>
+            <img class="image" src="footbol.jpg" alt="">
+            <p>
+
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum quia quis at enim, qui nisi iusto adipisci ducimus deleniti? Quasi sunt aliquid, deleniti explicabo corrupti quae? Accusantium, debitis impedit!
+               Ipsum reiciendis distinctio, maiores magnam asperiores iste consectetur molestias expedita ipsa mollitia unde earum consequuntur, inventore quis, optio beatae rem. Ex quod nulla nobis voluptatem nesciunt veritatis ducimus ad enim?
+               Voluptate perspiciatis ullam, commodi consectetur incidunt autem nostrum quisquam ipsam rerum! Tempora amet tenetur incidunt? Ratione aperiam voluptate fuga facilis consectetur illum sit alias nostrum a, excepturi voluptas veniam tempore.
+               Quae dolor modi magnam quam inventore, ad a corrupti voluptatibus nam ea assumenda. Corrupti perspiciatis fugit unde culpa magni debitis mollitia, saepe eum minus a, nesciunt, quam atque veniam nam.
+               Pariatur ut voluptatum inventore consectetur soluta non deserunt dolor. Consequatur magni minus ea recusandae rerum hic eligendi facere delectus, voluptatum et suscipit sequi quasi neque a dicta! Omnis, veniam deserunt.
+               Perspiciatis recusandae possimus alias esse nostrum aliquam reiciendis quod debitis velit, accusamus, doloribus voluptatem corporis nesciunt soluta dicta explicabo nemo temporibus perferendis in. Quisquam, facere maiores! Ea, modi accusamus? Quo!
+               Voluptatem laboriosam iusto provident sit qui? Dicta tempore laudantium autem, debitis tenetur, nulla perferendis saepe totam quis est, quo eius aut quibusdam consequatur corrupti enim sint! Doloremque nesciunt voluptatum iure.
+               Non adipisci dolorem quia excepturi architecto nemo minus iure laborum veniam commodi! Optio eligendi, quaerat esse suscipit rem explicabo repellat, nobis inventore numquam debitis earum voluptate reprehenderit fugit. Sunt, animi!
+               Commodi fuga placeat voluptas! Quasi, recusandae perspiciatis. At a corporis deserunt exercitationem! Esse commodi natus cum saepe. Reprehenderit, asperiores ducimus cum rem soluta reiciendis repudiandae fugiat alias odit culpa at?
+               Tenetur ipsum architecto itaque accusantium soluta cumque vel esse eveniet modi odit illum rem, nemo quasi ad voluptatem. Velit dolorum iusto nemo qui? Pariatur voluptas maxime hic quasi! Consequatur, reiciendis.
+               Nisi tempora numquam mollitia aliquid harum temporibus. Nihil quos ea aspernatur laboriosam minima officia expedita eveniet modi autem dolor est earum totam eos, inventore, hic sit sed magnam mollitia ipsa!
+               Corporis rerum, tempore assumenda beatae quae numquam voluptatibus doloribus quod vitae ab minus? Totam debitis corporis aliquam fugiat iusto autem incidunt laboriosam, tenetur repellat tempora vel voluptatum, cupiditate suscipit officia!
+               Ad incidunt perspiciatis sint! Alias voluptates laboriosam at explicabo, veritatis unde nihil facilis nostrum praesentium adipisci quam corporis deserunt quae voluptatem inventore doloribus suscipit cupiditate officia sequi, consequatur aliquid in?
+               Amet aperiam officiis repudiandae rerum tempore illo reprehenderit, dolore sed assumenda voluptate quam. Necessitatibus animi rerum, eos amet explicabo provident laborum praesentium vitae consequatur, quam accusamus error cupiditate odit officia.
+               Nihil, iste nemo? Quod ratione, praesentium maiores officia cum necessitatibus totam sequi atque accusamus, incidunt iusto magnam error beatae sed, laboriosam repudiandae in voluptatem! Amet, sed quae. Animi, quo officiis!
+               Ipsa deserunt nihil tempora esse. Molestiae aliquam harum delectus velit temporibus voluptas aliquid! Sit ipsum quisquam id eligendi inventore voluptates perferendis eveniet, iusto culpa quasi ratione. Repellendus voluptatem voluptas illo?
+               Voluptatem praesentium, molestias illo earum culpa similique neque tempora soluta maxime veritatis dolores quasi, libero deleniti hic quae nobis fugiat consequatur in suscipit laborum ipsa. Sit, corporis numquam. Ipsum, aliquid.
+               Facere illo tenetur earum deserunt eos iste aut, aliquid reprehenderit, iusto, expedita sunt ullam animi a quasi illum eveniet similique voluptate error nulla minus repudiandae repellendus amet laborum optio! Deserunt.
+               Enim velit mollitia quisquam beatae eos nam, facere sed ex, optio blanditiis a consectetur repellendus voluptatum vitae dolorum nemo. Qui nobis repellat ratione neque placeat voluptatibus aliquid rem nihil odio!
+               Magnam id ullam earum totam adipisci consequuntur nobis provident molestiae quis. Ipsa in doloremque repellendus sequi praesentium? Pariatur, ea nobis aliquid voluptatum debitis dignissimos provident culpa, officia nulla harum neque.
+        </p></div>
+        <div class="footer">
+            ГЛАВНОЕ НЕ ПОБЕДА, А УЧАСТИЕ!
+        </div>
+    </div>
+
+
+</body></html>
