@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			a {
+				color: green;
+			}
+
+			a:hover {
+				color: red;
+			}
+
+			ul {
+				margin: 0;
+				padding: 0;
+			}
+
+			li {
+				list-style: none;
+				float: left;
+				padding-left: 4px;
+				border-right: 3px solid red;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				padding-right: 2px;
+				height: 20px;
+			}
+
+			.first a {
+				display: inline-block;
+				height: 30px;
+				padding-top: 10px;
+				padding-right: 5px;
+				background-image: url('Untitled.jpg');
+				background-position: right;
+				background-repeat: no-repeat;
+				vertical-align: bottom;
+			}
+
+			.first a:last-child {
+				background: none;
+			}
+
+			.second li:first-child {
+				padding-left: 0px;
+			}
+
+			.second li:last-child {
+				border: none;
+			}
+
+			.third a {
+				vertical-align: top;
+			}
+
+			.third span:first-child::after {
+				content: ' ' url('Untitled.jpg');
+			}
+
+			.third span:nth-child(2)::after {
+				content: ' ' url('Untitled.jpg');
+			}
+
+			.third span:nth-child(3)::after {
+				content: ' ' url('Untitled.jpg');
+			}
+
+			.third span:nth-child(4)::after {
+				content: ' ' url('Untitled.jpg');
+			}
+
+			.third span:nth-child(52)::after {
+				content: ' ' url('Untitled.jpg');
+			}
+
+			.fourth a {
+				margin-right: 3px;
+			}
+
+			.fourth img {
+				vertical-align: middle;
+			}
+
+			.fourth img:last-child {
+				display: none;
+			}
+		</style>
+	</head>
+
+	<body cz-shortcut-listen="true">
+		<div class="first">
+			<a
+				href="#"
+				>Первая ссылка</a
+			>
+			<a
+				href="#"
+				>Вторая ссылка</a
+			>
+			<a
+				href="#"
+				>Третья ссылка</a
+			>
+			<a
+				href="#"
+				>Четвертая ссылка</a
+			>
+			<a
+				href="#"
+				>Пятая ссылка</a
+			>
+		</div>
+		<div class="second">
+			<ul>
+				<li>
+					<a
+						href="#"
+						>Первая ссылка</a
+					>
+				</li>
+				<li>
+					<a
+						href="#"
+						>Вторая ссылка</a
+					>
+				</li>
+				<li>
+					<a
+						href="#"
+						>Третья ссылка</a
+					>
+				</li>
+				<li>
+					<a
+						href="#"
+						>Четвертая ссылка</a
+					>
+				</li>
+				<li>
+					<a
+						href="#"
+						>Пятая ссылка</a
+					>
+				</li>
+			</ul>
+			<div style="clear: both"></div>
+		</div>
+		<div class="third">
+			<span
+				><a
+					href="#"
+					>Первая ссылка</a
+				></span
+			>
+			<span
+				><a
+					href="#"
+					>Вторая ссылка</a
+				></span
+			>
+			<span
+				><a
+					href="#"
+					>Третья ссылка</a
+				></span
+			>
+			<span
+				><a
+					href="#"
+					>Четвертая ссылка</a
+				></span
+			>
+			<span
+				><a
+					href="#"
+					>Пятая ссылка</a
+				></span
+			>
+		</div>
+		<div class="fourth">
+			<a
+				href="#"
+				>Первая ссылка</a
+			><img src="Untitled.jpg" alt="" />
+			<a
+				href="#"
+				>Вторая ссылка</a
+			><img src="Untitled.jpg" alt="" />
+			<a
+				href="#"
+				>Третья ссылка</a
+			><img src="Untitled.jpg" alt="" />
+			<a
+				href="#"
+				>Четвертая ссылка</a
+			><img src="Untitled.jpg" alt="" />
+			<a
+				href="#"
+				>Пятая ссылка</a
+			><img src="Untitled.jpg" alt="" />
+		</div>
+	</body>
+</html>
