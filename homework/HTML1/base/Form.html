@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Form</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			p {
+				float: left;
+				width: 180px;
+			}
+
+			.inputone {
+				width: calc(100% - 180px);
+			}
+
+			br.pablic {
+				display: none;
+			}
+
+			div {
+				margin-top: 10px;
+			}
+
+			@media all and (max-width: 520px) {
+				.inputone {
+					width: 100%;
+				}
+
+				select {
+					width: 100%;
+				}
+
+				br.pablic {
+					display: inline;
+				}
+			}
+		</style>
+	</head>
+	<body cz-shortcut-listen="true">
+		<form
+			action="https://mrmakson4ik.github.io/KabakMaksimLeonidovich/lessons/lesson15/homework/maket_form.html"
+		>
+			Для публикации вашей статьи заполните, пожалуйста, следующую форму:<br /><br />
+			<div>
+				<p>Название статьи:</p>
+				<input type="text" class="inputone" />
+			</div>
+			<div>
+				<p>Рубрика:</p>
+				<select name="rubrika" id="">
+					<option value="">Програмирование</option>
+					<option value="">Литература</option>
+					<option value="">История</option>
+				</select>
+			</div>
+			<div>
+				<p>Публикация:</p>
+				<br class="pablic" />
+				<input type="radio" />на сайте<br class="pablic" />
+				<input type="radio" />в журнале<br class="pablic" />
+				<input type="radio" />на сайте и в журнале
+			</div>
+			<div>
+				<p>Разрешить комментарии:</p>
+				<input type="checkbox" />
+			</div>
+			<div>
+				<p>Текст статьи:</p>
+				<br />
+				<textarea name="" id="" style="width: 100%"></textarea>
+			</div>
+			<input type="submit" value="Отправить" />
+		</form>
+	</body>
+</html>
