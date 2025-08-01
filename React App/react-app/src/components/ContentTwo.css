@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.ContentTwo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.ContentTwo p{
+    color:#000;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 3;
+}
+.dark .ContentTwo p{
+    color:#fff;
+}
+.ContentTwo button{
+    border:1px solid #118DA8;
+    background-color: #118DA8;
+    width: 178px;
+    height: 51px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    border-radius:10px;
+    margin-top:95px;
+    font-weight: 500;
+}
+.dark .ContentTwo button{
+    color:#fff;
+}
