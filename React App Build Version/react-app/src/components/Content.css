@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.content {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  gap: 250px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.podcast {
+  color: black;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
+  text-align: left;
+  padding-top: 300px;
+}
+.dark .podcast{
+  color:white;
+}
+.dark p {
+  color: white;
+}
+p{
+  color:black;
+}
+span{
+  font-weight: 700;
+}
+
+.Socials{
+  display: flex;
+  flex-direction: column;
+  margin-right: 350px;
+}
+.Listen{
+  margin-right: 50px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+.Socials div img{
+  padding-left: 20px;
+  border:none;
+}
+.Socials div img:hover{
+  cursor: pointer;
+}
